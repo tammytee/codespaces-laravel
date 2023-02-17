@@ -1,0 +1,10 @@
+{
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "mtxr.sqltools",
+                "mtxr.sqltools-driver-mysql"
+            ]
+        }
+    }
+}
