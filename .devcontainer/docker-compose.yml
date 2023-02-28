@@ -11,7 +11,7 @@ services:
         # Use -bullseye variants on local arm64/Apple Silicon.
         VARIANT: "8.0-bullseye"
         # Optional Node.js version
-        # NODE_VERSION: "lts/*"
+        NODE_VERSION: "lts/*"
 
 
     volumes:
