@@ -32,6 +32,7 @@ Then apply those values in your `.env` file:
 DB_DATABASE=
 DB_USERNAME=
 DB_PASSWORD=
+```
 
 Finally, migrate and seed your database:
 
