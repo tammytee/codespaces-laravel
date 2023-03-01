@@ -1,0 +1,29 @@
+{
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "mtxr.sqltools",
+                "mtxr.sqltools-driver-mysql"
+            ],
+            "settings": {
+                "sqltools.connections": [{
+                    "database": "mariadb",
+                    "driver": "MariaDB",
+                    "name": "Docker-Compose MariaDB",
+                    "password": "mariadb",
+                    "port": 3306,
+                    "server": "localhost",
+                    "username": "mariadb"
+                }]
+            }
+        }
+    },
+
+    "dockerComposeFile": ["docker-compose.yml"],
+    "service": "app",
+    "workspaceFolder": "/workspace",
+
+    "forwardPorts": [ 3306 ],
+
+    "postCreateCommand": "cp .env.example .env && composer install && php artisan key:generate && npm i"
+}
