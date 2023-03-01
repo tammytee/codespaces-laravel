@@ -4,7 +4,7 @@ This Codespace has everything you need to start exploring the [Laravel Framework
 
 ## Specs
 
-||||
+| Github Codespace Specs|||
 | - | - | - |
 | **Container Definition** | [PHP & MariaDB](https://github.com/microsoft/vscode-dev-containers/tree/main/containers/php-mariadb) (MySQL compatible) | `php 8.2-bullseye` |
 | **Extensions** |||
